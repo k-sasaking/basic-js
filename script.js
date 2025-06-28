@@ -12,4 +12,4 @@ function filterAndCapitalize(words, letter) {
 }
 
 console.log(filterAndCapitalize(words, letter))
-// "apple",  "apricot", "avocado"]
+// ["apple",  "apricot", "avocado"]
