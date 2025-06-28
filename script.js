@@ -7,7 +7,12 @@ const words = ["apple", "banana", "apricot", "blueberry", "avocado"];
 const letter = "a";
 
 function filterAndCapitalize(words, letter) {
-   
+
+    const results = []
+
+
+    
+    return results
 
 }
 
