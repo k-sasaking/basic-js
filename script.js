@@ -1,20 +1,27 @@
 /**
- 与えられた配列の中から、指定された文字で始まる単語だけを返す
- 関数 filterAndCapitalize(words, letter) を作ってください。
+商品を表すオブジェクトの配列 items があります。
+それぞれの商品は name（名前）と price（価格）を持っています。
+
+この中で 最も価格が高い商品の name を返す 関数 findMostExpensiveItem(items) を作ってください。
 */
 
-const words = ["apple", "banana", "apricot", "blueberry", "avocado"];
-const letter = "a";
+const items = [
+  { name: "apple", price: 100 },
+  { name: "banana", price: 80 },
+  { name: "peach", price: 150 },
+  { name: "cherry", price: 120 }
+];
 
-function filterAndCapitalize(words, letter) {
+function findMostExpensiveItem(items) {
 
-    const results = []
-
+    let maxPrice = 0;
+    let maxName = ""
+    // ここにコードを記載
 
     
-    return results
+    return maxName
 
 }
 
-console.log(filterAndCapitalize(words, letter))
-// ["apple",  "apricot", "avocado"]
+console.log(findMostExpensiveItem(items))
+// 出力結果："peach"
